@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Yana Ronchyk Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<body class="p-3 m-0 border-0 bd-example d-flex flex-column min-vh-100">
+
+  <!-- Navigation <div class="shadow-sm p-3 mb-5 bg-body rounded">Small shadow</div> -->
+  <nav  class="navbar navbar-expand-lg navbar-light  fixed-top" style="background-color: #E6E6FA;">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">Portfolio YR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <h1 class="display-6 ms-4 pt-3 pb-1">Here you can calculate the cost of my services</h1>
+  <p class="lead ms-4 pb-5">
+    If you want more information, you can follow <a href="contact.html" class="text-decoration-none">this link</a> and ask all your questions by mail. 
+  </p> 
+ 
+
+
+  <table class="table table-striped"> 
+    <thead>
+      <tr>
+        <th scope="col">Nazwy uslug</th>
+        <th scope="col">Stawka godziniowa</th>
+        <th scope="col">Liczba godzin</th>
+        <th scope="col">Suma</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="uxresearchrow" class="productrow">
+        <td>UX research</td>
+        <td>60</td>
+        <td><input value="0" type="number" min="0" data-bind="value:replyNumber" onchange="onChangeInputField()" /></td>
+        <td>0</td>
+      </tr>
+      <tr id="prototypingnrow" class="productrow">
+        <td>Prototyping</td>
+        <td>55</td>
+        <td><input value="0" type="number" min="0" data-bind="value:replyNumber" onchange="onChangeInputField()" /></td>
+        <td>0</td>
+      </tr>
+      <tr id="uidesignrow" class="productrow">
+        <td>UI design</td>
+        <td>60</td>
+        <td><input value="0" type="number" min="0" data-bind="value:replyNumber" onchange="onChangeInputField()" /></td>
+        <td>0</td>
+      </tr>
+      <tr id="webdesignrow" class="productrow">
+        <td>Web design</td>
+        <td>70</td>
+        <td><input value="0" type="number" min="0" data-bind="value:replyNumber" onchange="onChangeInputField()" /></td>
+        <td>0</td>
+      </tr>
+      <!--<tr><td></td></tr> -->
+      <tr></tr>
+      <tr></tr>
+      <tr class="table-success" id="totalsumrow">
+        <td>Suma</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Footer -->
+  <footer class="text-center text-white mt-auto" style="background-color: #F0F8FF;">
+    <div class="container pt-4">
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/profile.php?id=100074020809332" role="button">
+          <img src="/img/SNlogos/facebook.png" alt="inst" width="100%" height="100%">
+        </a>
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://instagram.com/moonch.ild_?igshid=YmMyMTA2M2Y=" role="button">
+          <img src="/img/SNlogos/instagram.png" alt="inst" width="100%" height="100%">
+        </a>
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/" role="button">
+          <img src="/img/SNlogos/linkedin.png" alt="inst" width="100%" height="100%">
+        </a>
+      </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+      © 2023 Copyright:
+      <a class="text-dark">Yana Ronchyk</a>
+    </div>
+
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>
